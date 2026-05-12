@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>NEON DASH</h1>
+            <div class="status">ONLINE</div>
+        </header>
+        
+        <div class="grid">
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="card-header">SYSTEM STATUS</div>
+                <div class="value">98.4%</div>
+                <div class="label">UPTIME</div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="card-header">TEMPERATURE</div>
+                <div class="value">42°C</div>
+                <div class="label">CPU</div>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="card">
+                <div class="card-header">NETWORK</div>
+                <div class="value">1.2 Gbps</div>
+                <div class="label">SPEED</div>
+            </div>
+            
+            <!-- Card 4 -->
+            <div class="card">
+                <div class="card-header">STORAGE</div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 67%;"></div>
+                </div>
+                <div class="label">67% USED</div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button class="btn">REBOOT SYSTEM</button>
+            <button class="btn secondary">SCAN NETWORK</button>
+        </div>
+    </div>
+</body>
+</html>
